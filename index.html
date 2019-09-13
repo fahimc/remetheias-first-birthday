@@ -72,7 +72,6 @@
 					<div class="col-lg-6 col-md-8">
 						<div class="section-title text-center">
 							<h2 id="rsvp">RSVP</h2>
-							<form name="contact" method="POST" data-netlify="true">
 								<div class="form-group">
 									<label for="name">Your Name</label>
 									<input type="text" class="form-control" id="name" aria-describedby="nameHelp"
@@ -82,8 +81,9 @@
 									<label for="numberOfPeople">Number of People Attending</label>
 									<input type="number" class="form-control" id="numberOfPeople" placeholder="Number of people">
 								</div>
-								<button type="submit" class="btn btn-primary">Submit</button>
-							</form>
+								<button id="rsvp-submit" type="submit" class="btn btn-primary">Submit</button>
+								<br>
+								<p class="rsvp-thanks">Thank you</p>
 						</div>
 					</div>
 				</div>

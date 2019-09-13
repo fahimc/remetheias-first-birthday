@@ -2030,6 +2030,9 @@ nav a:hover {
 .rsvp-button {
   background-color: #99b433;
 }
+.rsvp-thanks {
+  display: none;
+}
 
 @media (max-width: 767px) {
   .banner-area .fullscreen {
