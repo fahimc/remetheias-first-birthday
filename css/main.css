@@ -2011,9 +2011,37 @@ nav a:hover {
   text-shadow: 1px 1px #000000;
 }
 
+.details-text {
+  text-shadow: 1px 1px 5px black, 1px 1px 5px black;
+  font-size: 2rem !important;
+  line-height: 2rem  !important;
+}
+
+.hall-text {
+  font-size: 1.5rem !important;
+}
+
+.logo img{
+    width: 20vw;
+    min-width: 115px;
+    max-width: 200px;
+}
+
+.rsvp-button {
+  background-color: #99b433;
+}
+
 @media (max-width: 767px) {
   .banner-area .fullscreen {
     height: 600px !important;
+  }
+  .details-text {
+  font-size: 1.5rem !important;
+  line-height: 1.5rem  !important;
+  }
+  .hall-text {
+    font-size: 1rem !important;
+    line-height: 1.2rem  !important;
   }
 }
 
@@ -2030,22 +2058,13 @@ nav a:hover {
   }
 }
 
-@media (max-width: 991px) {
-  .banner-content h1 br {
-    display: none;
-  }
-}
 
 .banner-content p {
   margin-bottom: 60px;
   font-size: 16px;
 }
 
-@media (max-width: 991px) {
-  .banner-content p br {
-    display: none;
-  }
-}
+
 
 .generic-banner {
   background: #8460f6;
