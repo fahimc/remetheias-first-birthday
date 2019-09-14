@@ -40,7 +40,8 @@
 						<div class="main-menubar d-flex align-items-center">
 							<nav class="hide">
 								<a href="index.html">Home</a>
-								<a href="generic.html">Generic</a>
+								<a href="#rsvp">rsvp</a>
+								<a href="#what-to-expect">What to expect</a>
 								<a href="elements.html">Elements</a>
 							</nav>
 							<div class="menu-bar"><span class="lnr lnr-menu"></span></div>
@@ -72,14 +73,19 @@
 					<div class="col-lg-6 col-md-8">
 						<div class="section-title text-center">
 							<h2 id="rsvp">RSVP</h2>
+							<p>Reserve you tables</p><br>
 								<div class="form-group">
 									<label for="name">Your Name</label>
 									<input type="text" class="form-control" id="name" aria-describedby="nameHelp"
 										placeholder="Name">
 								</div>
 								<div class="form-group">
-									<label for="numberOfPeople">Number of People Attending</label>
-									<input type="number" class="form-control" id="numberOfPeople" placeholder="Number of people">
+									<label for="numberOfPeople">Number of Adults Attending (including chidren of 12)</label>
+									<input type="number" class="form-control" id="numberOfPeople" placeholder="Number of adults">
+								</div>
+								<div class="form-group">
+									<label for="numberOfChildren">Number of Children (under 12) Attending</label>
+									<input type="number" class="form-control" id="numberOfChildren" placeholder="Number of children">
 								</div>
 								<button id="rsvp-submit" type="submit" class="btn btn-primary">Submit</button>
 								<br>
@@ -91,20 +97,33 @@
 			</div>
 		</section>
 		<!-- Start History Area -->
-		<section class="section-gap history-area">
+		<section class="section-gap what-to-expect " id="what-to-expect">
+			<div class="gradient-left"></div>
 			<div class="container">
 				<div class="row justify-content-center">
 					<div class="col-lg-6 col-md-8">
 						<div class="section-title text-center">
-							<h2>Glorious History</h2>
-							<p>It won’t be a bigger problem to find one video game lover in your neighbor. Since the introduction of Virtual Game,</p>
+							<h2 class="text-white  text-glow" >What to Expect</h2>
+							<p class="text-glow">Remetheia's party is themed as an enchanted forest with <span class="emphasis">170 people</span> invited.</p>
+							<p class="text-glow">There'll be music, buffet food, entertainers, and kids soft play</p>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-8">
+						<div class="section-title text-center itinerary">
+								<h2 class="text-white  text-glow" >Itinerary</h2>
+								<ul class="text-glow ">
+									<li><span class="emphasis">1-2pm</span><br>Lunch</li>
+									<li><span class="emphasis">2-3pm</span><br>Kids play, Music and Dance</li>
+									<li><span class="emphasis">3-4pm</span><br>Entertainment</li>
+									<li><span class="emphasis">4-5pm</span><br>Cake and Picture</li>
+								</ul>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
 		<!-- End History Area -->
-		<!-- Start Service Area -->
+		<!-- 
 		<section class="service-area">
 			<div class="container">
 				<div class="row no-gutters">
@@ -163,6 +182,7 @@
 				</div>
 			</div>
 		</section>
+		Start Service Area -->
 		<!-- End Service Area -->
 		<!-- Start Exprience Area -->
 		<section class="section-gap exprience-area">
@@ -170,28 +190,28 @@
 				<div class="row justify-content-center">
 					<div class="col-lg-6 col-md-8">
 						<div class="section-title text-center">
-							<h2>Beautiful Experiences</h2>
-							<p>LCD screens are uniquely modern in style, and the liquid crystals that make them work have allowed humanity.</p>
+							<h2>The Venue</h2>
+							<p>Redbridge Town Hall - Lambourne Room</p>
 						</div>
 					</div>
 				</div>
-				<div class="row align-items-center">
-					<div class="col-lg-3 col-md-6">
+				<div class="row ">
+					<div class="col-lg-6 col-md-12">
 						<div class="vector-thumb">
-							<img src="img/v1.jpg" class="img-fluid" alt="">
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-6">
-						<div class="vector-thumb">
-							<img src="img/v2.jpg" class="img-fluid" alt="">
+							<img src="img/hall.png" class="img-fluid" alt="">
 						</div>
 					</div>
 					<div class="col-lg-6 col-md-12">
 						<div class="vector-content mt-30">
-							<h3 class="h2">Vector Illustration</h3>
-							<h4>LCD screens are uniquely modern in style, and the liquid crystals that make them work have allowed.</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor.</p>
-							<a href="#" class="primary-btn white-bg">View Details</a>
+							<h3 class="h2">How to get there</h3>
+							<h4>The venue is situated next to the Ilford shopping centre (The Exchange)</h4>
+							<p>The venue has multiple halls so please look for Lambourne room which is located on lower floor.</p>
+							<h4>Accessibility</h4>
+							<p>Please drop any disabled, elder and prams to the venue before looking for parking <br> Lifts are located near the enterance</p>
+							<img src="img/map.png" style="width:100%"><br><br>
+							<h4>Parking</h4>
+							<p>There is no free parking available at the venue but there plenty of car parks nearby</p>
+							<a href="https://www.redbridge.gov.uk/parking/car-parks-in-redbridge/" target="_blank" class="primary-btn white-bg">View Parking Details</a>
 						</div>
 					</div>
 				</div>

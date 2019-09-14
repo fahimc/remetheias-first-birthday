@@ -2011,6 +2011,10 @@ nav a:hover {
   text-shadow: 1px 1px #000000;
 }
 
+.text-glow{
+      text-shadow: 1px 1px 5px black, 1px 1px 5px black;
+}
+
 .details-text {
   text-shadow: 1px 1px 5px black, 1px 1px 5px black;
   font-size: 2rem !important;
@@ -2034,6 +2038,27 @@ nav a:hover {
   display: none;
 }
 
+.what-to-expect {
+    background-image: url(../img/fun.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    position: relative;
+}
+.emphasis {
+      font-size: 20px;
+}
+.itinerary{
+          background-color: rgba(0,0,0,0.3);
+}
+.gradient-left {
+ background-image: linear-gradient(to left, rgba(7, 235, 205,0), rgba(128,0,128,1));
+ position: absolute;
+left: 0;
+top:0;
+bottom:0;
+width:90%;
+}
 @media (max-width: 767px) {
   .banner-area .fullscreen {
     height: 600px !important;
@@ -2063,7 +2088,7 @@ nav a:hover {
 
 
 .banner-content p {
-  margin-bottom: 60px;
+  margin-bottom: 30px;
   font-size: 16px;
 }
 

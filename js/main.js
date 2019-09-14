@@ -7,9 +7,10 @@ $(document).ready(function(){
     document.querySelector('#rsvp-submit').addEventListener('click', () => {
         const name = document.querySelector('#name').value;
         const numberOfPeople = document.querySelector('#numberOfPeople').value;
+        const numberOfChildren = document.querySelector('#numberOfChildren').value;
         if(name && numberOfPeople) {
                 $.get(
-                    `https://docs.google.com/forms/d/e/1FAIpQLSfobt4qlZN-G2L1c-7_1ec-TauAeMdD8ZDSoktX9vN_q0FuiQ/formResponse?entry.976460334=${name}&entry.292708127=${numberOfPeople}&submit=Submit`,
+                    `https://docs.google.com/forms/d/e/1FAIpQLSfobt4qlZN-G2L1c-7_1ec-TauAeMdD8ZDSoktX9vN_q0FuiQ/formResponse?entry.976460334=${name}&entry.292708127=${numberOfPeople}&entry.805681981=${numberOfChildren}&submit=Submit`,
                     {},
                     function (data) {
                         console.log('page content: ' + data);
