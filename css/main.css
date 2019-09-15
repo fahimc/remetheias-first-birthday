@@ -2059,6 +2059,11 @@ top:0;
 bottom:0;
 width:90%;
 }
+
+.firefly-canvas {
+  filter: blur(1px);
+  position: absolute;
+}
 @media (max-width: 767px) {
   .banner-area .fullscreen {
     height: 600px !important;
